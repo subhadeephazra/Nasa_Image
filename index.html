@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Nasa Image API</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="h1">Nasa Picture of the day</h1>
+        <img src="" alt="" id="image">
+        <iframe id="video" src="" frameborder="0" allowfullscreen></iframe>
+        <h3 id="h3">Nasa Picture of the day</h3>
+        <p id="para"></p>
+    </div>
+    <div class="form">
+        <h1 class="h1">Search for a Pictureof the Day</h1>
+        <form id="search-form">
+            <label for="search-input">Select a date:</label>
+            <input type="date" id="search-input" required>
+            <button type="submit">Search</button>
+        </form>
+        <h4>Previous Searches</h4>
+        <ul id="search-history">
+        </ul>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
